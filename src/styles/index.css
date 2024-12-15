@@ -1,0 +1,57 @@
+:root {
+  --c-primary: #ff6500;
+  --c-white: #ffffff;
+  --c-black: #000000;
+  --c-secondary: #1e3e62;
+  --c-secondary-dark: #0b192c;
+
+  --w-xs: 375px;
+  --w-sm: 576px;
+  --w-md: 768px;
+  --w-lg: 992px;
+  --w-xl: 1200px;
+  --w-xxl: 1600px;
+  --w-container: 1200px;
+}
+
+* {
+  transition: 0.3s all;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+figure {
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--w-container);
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 1599px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 575px) {
+}

@@ -1,0 +1,24 @@
+@import "./components/button.css";
+@import "./components/image.css";
+@import "./components/typography.css";
+
+.rtq-layout {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.rtq-layout > * {
+  width: 100%;
+}
+
+.rtq-layout header.rtq-header {
+}
+
+.rtq-layout main.rtq-main {
+  flex: 1;
+}
+
+.rtq-layout footer.rtq-footer {
+}
