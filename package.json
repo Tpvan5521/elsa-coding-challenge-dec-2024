@@ -5,12 +5,15 @@
   "dependencies": {
     "cra-template-typescript": "1.2.0",
     "css-loader": "^7.1.2",
+    "dotenv": "^16.4.7",
     "firebase": "^11.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
     "style-loader": "^4.0.0",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "uuid": "^11.0.3",
+    "zustand": "^5.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
