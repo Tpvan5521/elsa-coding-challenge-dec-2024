@@ -8,6 +8,7 @@ declare global {
       REACT_APP_FIREBASE_STORAGE_BUCKET: string;
       REACT_APP_FIREBASE_MESSAGING_SENDER_ID: string;
       REACT_APP_FIREBASE_APP_ID: string;
+      REACT_APP_FIREBASE_DB_URL: string;
     }
   }
 }
