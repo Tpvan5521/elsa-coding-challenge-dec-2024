@@ -1,11 +1,12 @@
 import "styles/global.css";
-import { Layout } from "components/shared/Layout";
 import { AppProvider } from "providers/AppProvider";
+import { RouterProvider } from "react-router-dom";
+import { router } from "routers/router";
 
 const App = () => {
   return (
     <AppProvider>
-      <Layout>hi!</Layout>
+      <RouterProvider router={router} />
     </AppProvider>
   );
 };
